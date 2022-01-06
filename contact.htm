@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    function thanks() {
+      alert("Thanks for your response...");
+    }
+  </script>
+  <title>BioData For Lokesh Kumar Ravi</title>
+</head>
+
+<body>
+  <div id="nav">
+    <ul>
+      <li><a href="index.html">Home</a> </li>
+      <li><a href="contact.htm">News</a></li>
+      <li><a href="contact.htm">Contact</a></li>
+      <li><a href="about.htm">About</a></li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <div style="text-align:center">
+      <h2>Contact Us</h2>
+      <p>Swing by for a cup of coffee, or leave us a message:</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <!-- <img src="images/dog.png" style="width:100%"> -->
+      </div>
+      <div class="column">
+        <form action="contact.htm">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+          <label for="country">Country</label>
+          <select id="country" name="country" required>
+            <option value="india">India</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"
+            required></textarea>
+          <input type="submit" value="Submit" onclick="thanks();">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer> This site is designed and developed by <i>@Lokesh!!!</i> <br>
+    <div class="social">
+      Connect with me: : <a href="http://www.facebook.com/Lokeshwaji">Facebook</a>
+      <a href="http://linkedin.com/">Linked In</a>
+    </div>
+    </div>
+
+
+    <div class="name-img">
+      <h3> LOKESH KUMAR RAVI</h3>
+      <img src="images/dog.png" style="width: 140px; height: 120px;">
+    </div>
+  </footer>
+</body>
+
+</html>

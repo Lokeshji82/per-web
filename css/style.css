@@ -1,0 +1,170 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+
+body{
+  /* top right bottom left */
+  margin: 2% 10% auto 10%;
+  /* border: 1px solid black; */
+  font-size: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+ ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+ }
+
+ li{
+   float: left;
+ }
+
+ li a{
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+
+ li a:hover{
+   background-color: #111;
+ }
+
+.slider{
+  color: cornflowerblue;
+  background-color: #f2f2f2;
+}
+
+.edu{
+  margin-left: 50px;
+}
+
+.resume{
+  color: black;
+  background-color: black;
+  border: 2px solid green;
+  padding: 10px;
+  text-decoration: none;
+  /* float: right; */
+  display: inline-block;
+  color: white;
+  text-align: left;
+  left: 50%;
+  margin:  auto auto auto auto;
+  /* width: 5%; */
+   border-radius: 5%;
+   
+  
+}
+
+ 
+img{ 
+    height: 120px;
+    padding-top: 20px;
+    margin-top: 50px;
+   
+}
+
+footer{
+  position: inherit;
+  left: 0;
+  bottom: 0%;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  margin-top: 5px;
+
+}
+
+.social{
+  /* float: right; */
+  display: inline-block;
+  margin-left: 60%;
+  color: #45a049;
+  /* padding-bottom: 60%;  */
+}
+
+.social a{
+  color: #45a049;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+}
+
+.social a:hover{
+  background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+  }
+ 
+  /* Style inputs  */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4aa6d4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+   Style the container/contact section
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other 
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+*/
+  w3schoool css template 
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
